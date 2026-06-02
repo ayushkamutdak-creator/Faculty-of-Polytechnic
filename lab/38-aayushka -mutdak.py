@@ -17,3 +17,15 @@ def check(n)
 check(a)
 check(b)
 check(c)
+#problem3
+a=4
+b=9
+c=19
+def check(n):
+     if(n%3==0):
+      print("divisible")
+     else:
+      print ("not divisible ")
+check(a)
+check(b)
+check(c)
