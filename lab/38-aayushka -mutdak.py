@@ -36,15 +36,22 @@ def check(n=list):
          print (x)
          
 check (n)
-#problem4
+#problem5
 l=[1,2,3,4,5,6]
 l.pop(0)
 l.pop(1)
 l.pop(2)
 print (l)
-#problem5
+#problem6
 l=[1,2,3,4,5,6]
 l.pop(4)
 l.pop(2)
 l.pop(0)
 print (l)
+#problem7
+d={"ram":30,"vijay":40,"Radha":50} 
+print (d["vijay"])
+#problem 7
+d={"ram":30,"vijay":40,"Radha":50} 
+d.update({"tom":2,"dom":10})
+print(d)
