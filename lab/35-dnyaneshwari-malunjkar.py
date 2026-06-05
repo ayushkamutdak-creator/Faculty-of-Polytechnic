@@ -56,7 +56,7 @@ d=("Ram"=30,"Vijay"=40,"Radha"=60}
 d.update({"Tom"=2,"Don"=10}) 
 print(d) 
 #proble
-s="a, b, c, d, e, f, g, h, I, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, v, z":
+s="a, b, c, d, e, f, g, h, I, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z":
 for x in s:
 if x == 'a':
   count = count+1
