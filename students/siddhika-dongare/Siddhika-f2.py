@@ -74,3 +74,14 @@ elif guess < num:
     print("Too Low")
 else:
     print("Too High")
+
+#problem5
+num = 10
+
+for unum in [5, 20, 10]:
+    if unum == num:
+        print(unum, "- Correct")
+    elif unum < num:
+        print(unum, "- Low")
+    else:
+        print(unum, "- High")
