@@ -28,11 +28,7 @@ def sum(n):
 
 print(sum(10))
 #problem table 
-def leap_year(y):
-    if(y%4==0 and y%100!=0):
-        print("True")
-    else:
-        print("false")
-year=int(input("enter a year:"))
-leap_year(year)
-
+def table(n):
+    for i in range(1, 11): 
+        print(n*i)
+table(7)
