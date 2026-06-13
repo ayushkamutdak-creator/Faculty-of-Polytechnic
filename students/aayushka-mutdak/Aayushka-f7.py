@@ -19,4 +19,20 @@ def leap_year(y):
         print("false")
 year=int(input("enter a year:"))
 leap_year(year)
+#problem sum
+def sum(n):
+    total=0
+    for x in range(1,1+n):
+        total+=x
+    return total
+
+print(sum(10))
+#problem table 
+def leap_year(y):
+    if(y%4==0 and y%100!=0):
+        print("True")
+    else:
+        print("false")
+year=int(input("enter a year:"))
+leap_year(year)
 
